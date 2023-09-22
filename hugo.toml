@@ -1,0 +1,7 @@
+baseURL = 'https://www.security-presta.org'
+languageCode = 'en-us'
+title = 'report[@]security-presta.org'
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
