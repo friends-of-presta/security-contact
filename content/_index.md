@@ -16,7 +16,7 @@ Within the PrestaShop ecosystem, we're a small group of industry specialists  (h
 
 Prioritizing security, we're dedicated to fortifying the PrestaShop ecosystem. Vigilance and collaboration ensure a safe environment for seamless e-commerce experiences.
 
-We are publishing our reshearch on the [friend of presta security adivisory](https://security.friendsofpresta.org/).
+We are publishing our reshearch on the [FOP security adivisory website.](https://security.friendsofpresta.org/).
 
 {{< /columns >}}
 
