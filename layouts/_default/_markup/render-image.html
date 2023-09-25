@@ -1,0 +1,9 @@
+<p class="md__image">
+  {{ if strings.HasPrefix .Title "https" }}
+  <a {{ with .Title }} href="{{ . }}"{{ end }} target="_blank">
+  {{ end }}
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}"{{ end }} />
+  {{ if strings.HasPrefix .Destination  "https" }}
+    </a>
+  {{ end }}
+</p>
