@@ -1,5 +1,5 @@
 ---
-title: Information
+title: Report prestashop security issue
 type: docs
 ---
 
