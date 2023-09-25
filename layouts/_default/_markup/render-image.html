@@ -1,9 +1,27 @@
-<p class="md__image">
+{{- if .Page.Site.Params.BookPortableLinks -}}
+  {{- template "portable-image" . -}}
+{{- else -}}
   {{ if strings.HasPrefix .Title "https" }}
-  <a {{ with .Title }} href="{{ . }}"{{ end }} target="_blank">
-  {{ end }}
-    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}"{{ end }} />
-  {{ if strings.HasPrefix .Destination  "https" }}
-    </a>
-  {{ end }}
-</p>
+    <div class="md_image_link">
+      <a {{ with .Title }} href="{{ . }}"{{ end }} target="_blank">
+        <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}"{{ end }} />
+      </a>
+    </div>
+  {{- else -}}
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}/>
+  {{- end -}}
+{{- end -}}
+
+{{- define "portable-image" -}}
+  {{- $isRemote := or (in .Destination "://") (strings.HasPrefix .Destination "//") }}
+  {{- if not $isRemote }}
+    {{- $path := print .Page.File.Dir .Destination }}
+    {{- if strings.HasPrefix .Destination "/" }}
+      {{- $path = print "/static" .Destination }}
+    {{- end }}
+    {{- if not (fileExists $path) }}
+      {{- warnf "Image '%s' not found in '%s'" .Destination .Page.File }}
+    {{- end }}
+  {{- end }}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}/>
+{{- end -}}

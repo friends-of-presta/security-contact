@@ -19,13 +19,11 @@ Prioritizing security, we're dedicated to fortifying the PrestaShop ecosystem. V
 {{< /columns >}}
 
 {{< columns >}}
-
 ![TouchWeb Infogérance E-commerce](partners/touchweb.png "https://www.touchweb.fr")
 <--->
 ![Profileo 100% E-commerce](partners/profileo.png "https://www.profileo.com/")
 <--->
 ![202 Ecommerce](partners/202.png "https://www.202-ecommerce.com/")
-##
 {{< /columns >}}
 
 ## What do you do with the report ?
