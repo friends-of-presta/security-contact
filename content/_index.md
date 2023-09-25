@@ -30,7 +30,7 @@ DO NOT REPORT VULNERABILITIES SOLELY TO THE AUTHOR OR MARKETPLACE.
 
 We urge you to report any vulnerabilities directly to us. Our mission is to ensure the safety and security of the PrestaShop ecosystem. Unfortunately, many module developers may not always recognize or acknowledge the vulnerabilities in their code, whether due to lack of awareness, or inability to properly evaluate the associated risk, or other reasons.
 
-Given the rise in professional cybercrime networks actively seeking out these vulnerabilities, it's crucial that any potential threats are promptly addressed and the community is informed. The most effective method to do this is by publishing a CVE, like the one provided below.
+Given the rise in professional cybercrime networks actively seeking out these vulnerabilities, it's crucial that any potential threats are promptly addressed and the community is informed. The most effective method to do this is by publishing a CVE.
 
 Should you discover any vulnerabilities, **please report them to us at: report[@]security-presta.org.**
 
