@@ -16,10 +16,13 @@ Within the PrestaShop ecosystem, we're a small group of industry specialists  (h
 
 Prioritizing security, we're dedicated to fortifying the PrestaShop ecosystem. Vigilance and collaboration ensure a safe environment for seamless e-commerce experiences.
 
-We are publishing our reshearch on the [FOP security adivisory website.](https://security.friendsofpresta.org/).
-
 {{< /columns >}}
 
+## What do you do with the report ?
+
+Reports are used to publish a CVE by documenting the specific details and impact of a security vulnerability, which is then submitted for official assignment and public disclosure. This information serves as a standardized reference for the security community to understand and address the identified vulnerability.
+
+We are publishing our reshearch on the [FOP security adivisory website](https://security.friendsofpresta.org/).
 
 ## IMPORTANT NOTICE
 
