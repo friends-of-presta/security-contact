@@ -17,14 +17,15 @@ Within the PrestaShop ecosystem, we're a small group of industry specialists  (h
 Prioritizing security, we're dedicated to fortifying the PrestaShop ecosystem. Vigilance and collaboration ensure a safe environment for seamless e-commerce experiences.
 
 {{< /columns >}}
+
 {{< columns >}}
 
 ![TouchWeb Infogérance E-commerce](partners/touchweb.png "https://www.touchweb.fr")
+<--->
 ![Profileo 100% E-commerce](partners/profileo.png "https://www.profileo.com/")
 <--->
 ![202 Ecommerce](partners/202.png "https://www.202-ecommerce.com/")
-![772424 E-commerce hosting](partners/772424.png "https://www.772424.com/")
-
+##
 {{< /columns >}}
 
 ## What do you do with the report ?
