@@ -1,14 +1,14 @@
 ---
-title: Report prestashop security issue
+title: Reporting PrestaShop module security issue
 type: docs
 ---
 
-# Reporting prestashop security issue
+# Reporting PrestaShop module security issue
 
 {{< columns >}}
 ## Who are we?
 
-Within the PrestaShop ecosystem, we're a small group of industry specialists  (hosting / web agency / module developper) focused on enhancing its security.
+Within the PrestaShop ecosystem, we're a small group of industry specialists (hosting / web agency / module developper) focused on enhancing its security.
 
 <--->
 
@@ -30,7 +30,7 @@ Prioritizing security, we're dedicated to fortifying the PrestaShop ecosystem. V
 
 Reports are used to publish a CVE by documenting the specific details and impact of a security vulnerability, which is then submitted for official assignment and public disclosure. This information serves as a standardized reference for the security community to understand and address the identified vulnerability.
 
-We are publishing our reshearch on the [FOP security adivisory website](https://security.friendsofpresta.org/).
+We are publishing our reshearch on the [Friends Of Presta security adivisory website](https://security.friendsofpresta.org/).
 
 ## IMPORTANT NOTICE
 
