@@ -1,14 +1,14 @@
 ---
-title: Reporting PrestaShop module security issue
+title: Reporting a PrestaShop module security issue
 type: docs
 ---
 
-# Reporting PrestaShop module security issue
+# Reporting a PrestaShop module security issue
 
 {{< columns >}}
 ## Who are we?
 
-Within the PrestaShop ecosystem, we're a small group of industry specialists (hosting / web agency / module developper) focused on enhancing its security.
+Within the PrestaShop ecosystem, we're a small group of industry specialists (hosting / web agency / module developers) focused on enhancing its security.
 
 <--->
 
@@ -26,15 +26,19 @@ Prioritizing security, we're dedicated to fortifying the PrestaShop ecosystem. V
 ![202 Ecommerce](partners/202.png "https://www.202-ecommerce.com/")
 {{< /columns >}}
 
-## What do you do with the report ?
+## Why and How to Report Module Security Issues?
 
-Reports are used to publish a CVE by documenting the specific details and impact of a security vulnerability, which is then submitted for official assignment and public disclosure. This information serves as a standardized reference for the security community to understand and address the identified vulnerability.
+Reporting module vulnerabilities before they are discovered and exploited by cybercriminal networks helps reinforce the ecosystem's security.
 
-We are publishing our reshearch on the [Friends Of Presta security adivisory website](https://security.friendsofpresta.org/).
+**Please report the security vulnerability to us at: report[@]security-presta.org.**
 
-## IMPORTANT NOTICE
+Your reports are vital to address security issues, ensuring a security fix or module update is available before public disclosure.
 
-DO NOT REPORT VULNERABILITIES SOLELY TO THE AUTHOR OR MARKETPLACE.
+Once the vulnerability is verified and addressed, a Security Advisory is created by documenting the specific details and impact of the vulnerability. This is then publicly disclosed with a CVE (Common Vulnerabilities and Exposures). Such information provides a standardized guide for the security community to comprehend and tackle the identified vulnerability.
+
+We publish our research on the [Friends Of Presta security advisory website](https://security.friendsofpresta.org/).
+
+## DO NOT REPORT VULNERABILITIES SOLELY TO THE AUTHOR OR MARKETPLACE.
 
 We urge you to report any vulnerabilities directly to us. Our mission is to ensure the safety and security of the PrestaShop ecosystem. Unfortunately, many module developers may not always recognize or acknowledge the vulnerabilities in their code, whether due to lack of awareness, or inability to properly evaluate the associated risk, or other reasons.
 
